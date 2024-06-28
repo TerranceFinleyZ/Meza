@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+span {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #bfbfbf;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: ease .5s;
+    
+    &:hover {
+        background: #333;
+        color: #fff;
+        transition: ease .5s;
+    }
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    background: #fff;
+    color: #fff;
+    border-radius: 50%;
+    transition: ease .5s;
+
+    &:hover {
+        background: #333;
+        color: #fff;
+        transition: ease .5s;
+    }
+}
